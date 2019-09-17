@@ -1,0 +1,9 @@
+#install comes with quotes
+install packages("zoo")
+#try using rmarkdown
+install.packages("rmarkdown")
+#load
+library()
+## you open and edit rmd file with atom. run it in R by clicking knit
+## The WD path when using rmd seems to be different from getwd(). So just use full path in function. 
+## correct way of writing path "C:/Users/XU Lei/Documents/retail.xlsx"
