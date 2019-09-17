@@ -7,5 +7,15 @@ library()
 ## you open and edit rmd file with atom. run it in R by clicking knit
 ## The WD path when using rmd seems to be different from getwd(). So just use full path in function. 
 ## correct way of writing path "C:/Users/XU Lei/Documents/retail.xlsx"
-##```r``` 中间写代码
+##```{r}``` 中间写代码
 ##从r导出的pdf会和rmd放在一起，也会同名
+
+抬头标题的范例
+---
+title: "Time series HW1"
+author: ""
+date: "9/17/2019"
+output:
+  pdf_document: default
+  html_document: default
+---
